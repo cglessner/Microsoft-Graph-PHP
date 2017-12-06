@@ -4,9 +4,8 @@ The example uses the Microsoft Graph Beta endpoint and shows items trending arou
 API refrence: https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/beta-overview
 
 ## Prerequisites
-node js
-PHP > 7.0
-Composer
+
+node js, PHP > 7.0, Composer
 
 ## Create App in Azure AD
 
@@ -20,13 +19,13 @@ Copy .env.example and rename the file to .env
 
 Fill in AZURE_CLIENTID and AZURE_CLIENTSECRET in .env file 
 
-##Build
+## Build
 
 Run: npm install
 Run: Composer Install
 Run: npm run dev
 
-##Run
+## Run
 Run: php artisan serve
 Open browser: http://localhost:8000
 
